@@ -1,0 +1,35 @@
+{
+  "name": "timeout-dialog.jquery.js",
+  "version": "1.2.0",
+  "description": "timeout-dialog.jquery.js is a JQuery plugin that displays a timeout popover after a certain period of time. The timeout dialog should be used whenever you want to display to the user that the logged in session is about to expire. It creates a light box with a countdown and options to stay signed in or sign out.",
+  "main": "./src/js/timeout-dialog.jquery.js",
+  "scripts": {
+    "dev:TimeoutDialogMinJS": "minify ./src/js/timeout-dialog.jquery.js > ./src/js/timeout-dialog.jquery.min.js",
+    "dev:TimeoutDialogMinCSS": "minify ./src/css/timeout-dialog.jquery.css > ./src/css/timeout-dialog.jquery.min.css",
+    "dev:TimeoutDialogMin": "npm run dev:TimeoutDialogMinJS && npm run dev:TimeoutDialogMinCSS",
+    "dev:copyTimeoutDialogJS": "copyFiles -f ./src/js/* ./dist/timeout-dialog.jquery/js",
+    "dev:copyTimeoutDialogCSS": "copyFiles -f ./src/css/* ./dist/timeout-dialog.jquery/css",
+    "dev:copyTimeoutDialogIMG": "copyFiles -f ./src/img/* ./dist/timeout-dialog.jquery/img",
+    "dev:copyTimeoutDialog": "npm run dev:TimeoutDialogMin && rimraf ./dist/timeout-dialog.jquery && npm run dev:copyTimeoutDialogJS && npm run dev:copyTimeoutDialogCSS && npm run dev:copyTimeoutDialogIMG",
+    "build:dist": "npm run dev:copyTimeoutDialog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesperrin/timeout-dialog.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jamesperrin/timeout-dialog.js/issues"
+  },
+  "homepage": "https://github.com/jamesperrin/timeout-dialog.js#readme",
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "minify": "^13.0.0",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "usemin-cli": "^0.6.0"
+  }
+}
