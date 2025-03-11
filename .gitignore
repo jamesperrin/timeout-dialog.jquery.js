@@ -965,7 +965,7 @@ FodyWeavers.xsd
 ### CUSTOM ###
 
 ## Overrides
-!**/fes-assets/vendor/timeout-dialog/**/*
+!dist
 
 ## Folders
 [Ff]ortify*/
