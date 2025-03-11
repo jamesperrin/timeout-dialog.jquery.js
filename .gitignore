@@ -966,6 +966,7 @@ FodyWeavers.xsd
 
 ## Overrides
 !dist
+!code-examples/assets/*
 
 ## Folders
 [Ff]ortify*/
