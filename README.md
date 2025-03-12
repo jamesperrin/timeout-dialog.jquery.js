@@ -17,7 +17,7 @@ timeout-dialog.jquery.js is a JQuery plugin that displays a timeout popover afte
 
 ## Demo
 
-[timeout-dialog.jquery.js examples (rigoneri.github.io)](https://rigoneri.github.io/timeout-dialog.js/)
+[timeout-dialog.jquery.js examples (jamesperrin.github.io)](https://jamesperrin.github.io/timeout-dialog.jquery.js//)
 
 ## Example and Documentation
 
