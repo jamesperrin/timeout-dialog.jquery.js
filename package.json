@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesperrin/timeout-dialog.js.git"
+    "url": "https://github.com/jamesperrin/timeout-dialog.jquery.js.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/jamesperrin/timeout-dialog.js/issues"
+    "url": "https://github.com/jamesperrin"
   },
-  "homepage": "https://github.com/jamesperrin/timeout-dialog.js#readme",
+  "homepage": "https://github.com/jamesperrin/timeout-dialog.jquery.js#readme",
   "devDependencies": {
     "copyfiles": "^2.4.1",
     "minify": "^13.0.0",
