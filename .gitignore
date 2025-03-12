@@ -967,6 +967,7 @@ FodyWeavers.xsd
 ## Overrides
 !dist
 !code-examples/assets/*
+!docs/assets/*
 
 ## Folders
 [Ff]ortify*/
@@ -980,7 +981,6 @@ _[Dd]ev[_-][Ss]cripts/
 [Dd]ev[Dd]ocs/
 [Dd]ev[_-][Dd]ocs/
 [Dd]ev[_-][Ss]cripts/
-[Dd]ocs/
 
 ## Files
 [Pp]rivate*
